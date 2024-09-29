@@ -1,0 +1,12 @@
+2024-09-26 10:09:10,615 [INFO] from play.api.db.DefaultDBApi in netty-event-loop-3 - Database [default] initialized
+2024-09-26 10:09:10,617 [INFO] from play.api.db.HikariCPConnectionPool in netty-event-loop-3 - Creating Pool for datasource 'default'
+2024-09-26 10:09:10,953 [INFO] from play.api.http.EnabledFilters in netty-event-loop-3 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2024-09-26 10:09:10,974 [INFO] from play.api.Play in netty-event-loop-3 - Application started (Dev) (no global state)
+2024-09-26 11:46:27,902 [INFO] from play.core.server.NettyServer in play-dev-mode-shutdown-hook-1 - Stopping server...
+2024-09-26 11:46:30,070 [INFO] from play.api.db.HikariCPConnectionPool in application-akka.actor.internal-dispatcher-6 - Shutting down connection pool.
+2024-09-26 11:46:30,120 [INFO] from play.core.server.NettyServer in play-dev-mode-akka.actor.internal-dispatcher-6 - Running provided shutdown stop hooks
